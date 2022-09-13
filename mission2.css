@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: "Bad Script";
+    src: url("BadScript-Regular.ttf");
+}
+
+/* Home page */
+
+/* body .center {
+    display: grid;
+    place-items: center;
+} */
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    background: rgba(51, 51, 51, 0.9);
+    background-image: url("https://lh3.googleusercontent.com/rTnzibKHQwPvr7WhQ9WvJz9aQPIbuYbtSukdpBN_e2BEHGJFLcosVN40thwcJZm4Bsvh0Eiw5R93fWImipHtlXr_tZd_CYNFvCOhCUmITGFOeo9Had69qeWV0k7N78G-C0DFDHPfMzsZIPTiCUYgYsN_OiIHYI-XNyFfsMwqfZiKIebsSK0ofao7WNML6iZcGZuIm2QmO4NSqN_-JQ518a2u2-1arERifJOPWK1YG0abk0XTEKwEq0z1E6wqbbUP63QNs8xu-gxkx1wwMh3YvX3R--9xmymVeWyu2P9Rtogae6qB7ZB11eK3qXLkuWQ5aN4kFfy78w8rtOM2M3JJgK_RNEIkm-FHB1HHc_d9zMg3QhxCNTiQ8_Bcc86npl_SZecM4JFFLhVdtXm3a-p5RH_nKfe5anfqXu-GWSwn6EqOekjueC0a9U-xeVPXem4lUvKZN9QH2eFDPwNYK9VM7JAuw9nR1ap818CuexoxYOaNIeb3Dt-hRa_VRK9jj5q1t_4T-vQOWRMRxafFDSdHCcEQz85UoBKqDb16tQqxe7xObOG0VXnr47s8_fzkUiioZLnt3KXHnTnmLyNYKt1q_clLKVoEmFhJNwUlEi37DGdFpeURRbSqd-QXx6Kpe_dlY4i3djQAO2waDkc7QpjWYS2wXGAq4IuB7LBUN4EolX4oTk2ZD0XckFaC8dnauNrMj53P5hirWvpEtwUdDQqtkFrTAfF_kWpEl88BLKr3-SmgM0_HhOQvc8DhC7Q=w900-h720-no?authuser=0");
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    position: relative;
+}
+
+.container h3 {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    font-weight: 400;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: whitesmoke;
+    padding: 10px;
+    left: 0px;
+    /* transform: translateX(50%); */
+}
+
+.container h1 {
+    font-family: "Bad Script";
+    font-size: 100px;
+    display: flex;
+    color: whitesmoke;
+}
+
+
+
+.container .navbar {
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.container .navbar a {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 15px;
+    color: #1c1c1c;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.container .navbar p {
+    font-size: 21px;
+    text-align: center;
+    padding: 10px 15px;
+    color: #1c1c1c;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* ABOUT PAGE */
+
+.container1 {
+    min-height: 100vh;
+    display: flex;
+}
+
+.container1 #left {
+    width: 50vw;
+    background-color: rgba(9, 121, 105, 0.5);
+    position: relative;
+}
+
+.container1 #right {
+    width: 50vw;
+    position: relative;
+}
+
+#disc {
+    background-image: url("https://lh3.googleusercontent.com/70yA6buJgEXjfUqt_HMI4HOTjU1J8FuVpknfiVFs_iUmRm7TKudFb0AunIYMcbbXwiwVjJZMPwAyVaKnuIJX1UH9LC9GA45mJyw0z-UroiLV4RJHAUZ5X7CDBzFB1Hm1fLW7CRn58rVhFaNOnM-5M_U_FSoLPAiNbTju6wDoFq1OPJqQkscKvgHmmzI_f1svkaQESsJ0Rbf9izOX70QEky3jriTyihFYWMqXbSOKPEUUOB3gXByHCmE1ctbmtkDbMTmXV1Wl6pgCGeTskcwffLc8rIkMuMW_9cc6QZxkQ3wu5rwaxI7Lx0CkbdVUDwotatg2AE7tp0qBKrxnlxdFvf1MCHKU_xdPb7_nNt03XbF_kSotaIXZG4hPW2O9mW-D_TOHFcNNk9Vi-I-Ug1UcwkQ3iqZQVvz8Dc6bBRmdehgI10KpnrP9aG8bG-0-NngbaDjTwJrNG8CtgdVvQI-uXUu3DJbYpphzvSmtBscriKvB1E8jOiRT1MFwdUCpRCrfjPdXhnnOtyLjBAwhyS0_7F8UqDlYmnHlbDGccXvbjuTaaRo6yoxqiZBy4e__EswWXkdpqeiXDzkUsUbwPcufk9Q3tp36CXFu5nyZiTmiGqGdfQj-AJRM-VxYUWuSpzyEXMmou4035wEzvv3eCxfcuNf1EDhYrPf_fWX_YhX-hSNbmfK6xSZet-mPjLwTqB2u6CGNqjaMaN12PJv82GbMflsE5TCImS3d9S9rort4BT4pfGk2k_INjEV5n7o=w899-h944-no?authuser=0");
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    width:13em; height: 13em;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 50px; right: -6.5em;
+}
+
+.container1 h1 {
+    font-family: "Bad Script";
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 28%;
+    overflow: hidden;
+}
+
+.container1 .navbar {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;    
+}
+
+.container1 .navbar a {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 15px;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.container1 .navbar p {
+    font-size: 21px;
+    text-align: center;
+    padding: 10px 15px;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.container1 h2 {
+    display: flex;
+    margin-left: 6em;
+    margin-top: 5em;
+    margin-right: 3em;
+}
+
+.container1 #right h3 {
+    font-size: 15px;
+    margin-left: 130px;
+    margin-right: 80px;
+    margin-top: 30px;
+    padding-bottom: 40px;
+   
+}
+
+.container1 #right h2 {
+    font-size: 18px;
+    margin-left: 130px;
+    margin-right: 80px;
+    margin-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+.container1 #right p {
+    font-size: 15px;
+    margin-left: 130px;
+    margin-right: 80px;
+    padding-bottom: 30px;
+
+}
+
+/* TRAVEL PAGE */
+
+.container2 {
+    min-height: 100vh;
+    display: flex;
+}
+
+.container2 #left {
+    width: 50vw;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.container2 #right {
+    width: 50vw;
+    background-color: white;
+    position: relative;
+   border: double;
+}
+
+.container2 #right {
+    /* background-image: url("https://lh3.googleusercontent.com/okEmotNXzj-ktjuNWlV3xyR32QWDhDIfq2EfmSQ2KUG_IW4YJh6KY-TSY8nzuzhVaJEjwMd-TKqI4NuqkT-2Nf1IRjXfVcdbW09oIhyCjHZiTxgDSCGrRo4xxbfEthTHvy7NtWxO1APtVGGMBeC9pFqiaOThHBzlZoy0OkSX8T-JcMFMRDqNn9F2T_u-4QRW5__xnqJ5ICDUA8pFZqC9TF_8b96Z9kIwDUYxLE7sv_d2uAvNoCVw8eNlvWf80B2wXLuDkzyq247NZeUMKx9YOE-sewjatvemBvTZFpQbbRNzGgGXwmippgo8XOlhIK7s5k2LWkXkbhGAUM6CbeU6lmPD-ET3zplaPiufH-cLgsBHg0NRtf9rIqJIHeWp78F9gv38LR6GOaOItySaLuDsAG5fHmvyPanFfeHi1Die7WP0ODyf5JHtGnm6nA8ylXZ6SupjH8ZqSEc0OMxe-4NZ2ipQrGiVgszfcOaoIlDL8HeyYMOFNeFOQFK2mPUff-9q663VjYZr3CWn5_KZ1AycDaTx9e6yVwjBP1Jcu00k-38qxThFPQlRzru8t-QW0_IhdFYH8aDnxlDOaQDt2d0FbMJDrsMv2KrZJ1-AQwd45cr-L7uYZdnqRzE5kmBIMENC4Pkw7qKrFB6ZsEf4QZdEsZakTlVz3-_voKRSDrLWRVo-JyKy9CVxspbTmGeyV52vqa7wT1DQjJqPqX4gpKcl8PgOa_DADvOAgdZYup_jZ0tBxcClv0r40-PSaWg=w592-h887-no?authuser=0") ; */
+    background-size: cover;
+    overflow: hidden;
+    background-position: center; 
+}
+
+.container2 h1 {
+    font-family: "Bad Script";
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+    overflow: hidden;
+}
+.container2 .cities {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container2 .cities p {
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 10px;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+.container2 .navbar {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.container2 .navbar a {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 15px;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.container2 .navbar p {
+    font-size: 21px;
+    text-align: center;
+    padding: 10px 15px;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+
+#budaImg {
+    display: block;
+    margin-left: 16%;
+    margin-top: 2%;
+    height: 450px;
+}
+
+#pragImg {
+    display: block;
+    margin-left: 53%;
+    margin-top: -47.2%;
+    height: 450px;
+    }
+
+/* // Contact page */
+
+.container3 {
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.container3 #left {
+    width: 50vw;
+    background-color: rgba(9, 121, 105, 0.5);
+    position: relative;
+}
+
+.container3 #right {
+    width: 50vw;
+    background-color: white;
+    position: relative;
+}
+
+.container3 h1 {
+    font-family: "Bad Script";
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+    overflow: hidden;
+}
+
+.container3 .navbar {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.container3 .navbar a {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 15px;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.container3 .navbar p {
+    font-size: 21px;
+    text-align: center;
+    padding: 10px 15px;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}

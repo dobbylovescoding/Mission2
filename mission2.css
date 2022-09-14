@@ -194,19 +194,13 @@
     position: relative;
 }
 
-.container2 #right {
+.container2 #bgImages {
     width: 50vw;
     background-color: white;
     position: relative;
    border: double;
 }
 
-.container2 #right {
-    /* background-image: url("https://lh3.googleusercontent.com/okEmotNXzj-ktjuNWlV3xyR32QWDhDIfq2EfmSQ2KUG_IW4YJh6KY-TSY8nzuzhVaJEjwMd-TKqI4NuqkT-2Nf1IRjXfVcdbW09oIhyCjHZiTxgDSCGrRo4xxbfEthTHvy7NtWxO1APtVGGMBeC9pFqiaOThHBzlZoy0OkSX8T-JcMFMRDqNn9F2T_u-4QRW5__xnqJ5ICDUA8pFZqC9TF_8b96Z9kIwDUYxLE7sv_d2uAvNoCVw8eNlvWf80B2wXLuDkzyq247NZeUMKx9YOE-sewjatvemBvTZFpQbbRNzGgGXwmippgo8XOlhIK7s5k2LWkXkbhGAUM6CbeU6lmPD-ET3zplaPiufH-cLgsBHg0NRtf9rIqJIHeWp78F9gv38LR6GOaOItySaLuDsAG5fHmvyPanFfeHi1Die7WP0ODyf5JHtGnm6nA8ylXZ6SupjH8ZqSEc0OMxe-4NZ2ipQrGiVgszfcOaoIlDL8HeyYMOFNeFOQFK2mPUff-9q663VjYZr3CWn5_KZ1AycDaTx9e6yVwjBP1Jcu00k-38qxThFPQlRzru8t-QW0_IhdFYH8aDnxlDOaQDt2d0FbMJDrsMv2KrZJ1-AQwd45cr-L7uYZdnqRzE5kmBIMENC4Pkw7qKrFB6ZsEf4QZdEsZakTlVz3-_voKRSDrLWRVo-JyKy9CVxspbTmGeyV52vqa7wT1DQjJqPqX4gpKcl8PgOa_DADvOAgdZYup_jZ0tBxcClv0r40-PSaWg=w592-h887-no?authuser=0") ; */
-    background-size: cover;
-    overflow: hidden;
-    background-position: center; 
-}
 
 .container2 h1 {
     font-family: "Bad Script";
@@ -254,20 +248,52 @@
     text-decoration: none;
 }
 
+.container2 #bgImages {
+    background-image: url("Buda.jpeg");
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+}
 
-#budaImg {
+.container2 #bgImages button {
+    display: flex;
+    color: whitesmoke;
+    margin-left: 95%;
+    margin-top: 50%;
+    font-size: 30px;
+    background-color: rgba(9, 121, 105, 0.0);
+
+}
+
+/* #budaImg {
     display: block;
-    margin-left: 16%;
-    margin-top: 2%;
-    height: 450px;
+    margin-left: 17%;
+    height: 100vh;
+    z-index: -1;
+    position: relative;
 }
 
 #pragImg {
     display: block;
     margin-left: 53%;
-    margin-top: -47.2%;
-    height: 450px;
+    margin-top: -40.4%;
+    height: 300px;
+    position: relative;
     }
+
+#newImg {
+    display: block;
+    margin-left: 16%;
+    margin-top: 5.2%;
+    height: 300px;
+}
+#quebImg {
+    display: block;
+    margin-left: 53%;
+    margin-top: -40.2%;
+    height: 300px;
+} */
+    
 
 /* // Contact page */
 

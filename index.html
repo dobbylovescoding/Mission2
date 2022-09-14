@@ -49,7 +49,7 @@
       <div id="right">
         <h3>I am currently studying full stack development and blah yeah man</h3>
         <p>Pippin, I didn't think it would end this way. Gandalf, End? No, the journey doesn't end here. Death is just another path, one that we all must take. The grey rain-curtain of this world rolls back, and all turns to silver glass, and then you see it. Pippin, What? Gandalf? See what? Gandalf, White shores, and beyond, a far green country under a swift sunrise. Pippin, Well, that isn't so bad. Gandalf, No. No, it isn't.”</p>
-        <h2> Programming and software work</h2>
+        <h2> Programming and software</h2>
         <p>Pippin, I didn't think it would end this way. Gandalf, End? No, the journey doesn't end here. Death is just another path, one that we all must take. The grey rain-curtain of this world rolls back, and all turns to silver glass, and then you see it. Pippin, What? Gandalf? See what? Gandalf, White shores, and beyond, a far green country under a swift sunrise. Pippin, Well, that isn't so bad. Gandalf, No. No, it isn't.”</p>
         <h2>Design work</h2>
         <p>Pippin, I didn't think it would end this way. Gandalf, End? No, the journey doesn't end here. Death is just another path, one that we all must take. The grey rain-curtain of this world rolls back, and all turns to silver glass, and then you see it. Pippin, What? Gandalf? See what? Gandalf, White shores, and beyond, a far green country under a swift sunrise. Pippin, Well, that isn't so bad. Gandalf, No. No, it isn't.”</p>      
@@ -60,13 +60,13 @@
       <div id="left">
         <h1>Travel</h1>
         <div class="cities">
-          <p>Budapest</p>
+          <a onclick="changeBuda()">Budapest</a>
           <p>/</p>
-          <p>Prague</p>
+          <a onclick="changePrag()">Prague</a>
           <p>/</p>
-          <p>New York</p>
+          <a onclick="changeNew()">New York</a>
           <p>/</p>
-          <p>Quebec</p>
+          <a onclick="changeQueb()">Quebec</a>
         </div>
         
        <nav class="navbar">
@@ -79,10 +79,13 @@
         <a href="#">DESTINY</a>
       </nav>
       </div>
-      <div id="right">
+      <div id="bgImages">
+    
   
-        <img id="budaImg" src="https://lh3.googleusercontent.com/okEmotNXzj-ktjuNWlV3xyR32QWDhDIfq2EfmSQ2KUG_IW4YJh6KY-TSY8nzuzhVaJEjwMd-TKqI4NuqkT-2Nf1IRjXfVcdbW09oIhyCjHZiTxgDSCGrRo4xxbfEthTHvy7NtWxO1APtVGGMBeC9pFqiaOThHBzlZoy0OkSX8T-JcMFMRDqNn9F2T_u-4QRW5__xnqJ5ICDUA8pFZqC9TF_8b96Z9kIwDUYxLE7sv_d2uAvNoCVw8eNlvWf80B2wXLuDkzyq247NZeUMKx9YOE-sewjatvemBvTZFpQbbRNzGgGXwmippgo8XOlhIK7s5k2LWkXkbhGAUM6CbeU6lmPD-ET3zplaPiufH-cLgsBHg0NRtf9rIqJIHeWp78F9gv38LR6GOaOItySaLuDsAG5fHmvyPanFfeHi1Die7WP0ODyf5JHtGnm6nA8ylXZ6SupjH8ZqSEc0OMxe-4NZ2ipQrGiVgszfcOaoIlDL8HeyYMOFNeFOQFK2mPUff-9q663VjYZr3CWn5_KZ1AycDaTx9e6yVwjBP1Jcu00k-38qxThFPQlRzru8t-QW0_IhdFYH8aDnxlDOaQDt2d0FbMJDrsMv2KrZJ1-AQwd45cr-L7uYZdnqRzE5kmBIMENC4Pkw7qKrFB6ZsEf4QZdEsZakTlVz3-_voKRSDrLWRVo-JyKy9CVxspbTmGeyV52vqa7wT1DQjJqPqX4gpKcl8PgOa_DADvOAgdZYup_jZ0tBxcClv0r40-PSaWg=w592-h887-no?authuser=0">
-        <!-- <img id="pragImg" src="https://lh3.googleusercontent.com/kge6WZQ8IhA16PBylnh-eo1IgxI3LBw2oex4ZvelFwL3-VJl84mWIyx5mY0F6MjDDMN_1Q73ql2e4V6hb3po0anAEzvB8_TKXkZwD7MTA1CbM5guLQZ_j5BjYrqVEDrghxjUaJ3HhbV6M7LGauvMwIod1vpf1uWlZZ_Wt4sRbvR_g0g_9RNGYMl0VRdpH8pRIUoqMqDLI2Dscn5u0_1gHi6hA3UtX-zB-MiqVdMHbw-T1bFB_FXli6uFEkiXAY3CX4nHliHArgPX8XimTJ07G6-oDVHX3EIVuSt9kgCSu_B38l--utVn6MDNXut41GacaEptaOaxjo3ywKIOsKnZ_ZHXi8c0w5C4HALjKjM5bDEIPGU5t8etQiDR9XJ7StfuT0ZXDeOSJoAJ8M-yYPg0TToh8ayOKPw7EaOepmDI178psYrFmJbjHK6JEnvvj71eLsrUL-d2pcdZ7ygG2w7GfYqaVlkRE7_kmg3FpZl5JZkAWLs4jde-IzhCpob7ecB6phYZvtt43tGGYKqogB4VZTZr2s4fSf0vXBdZ_zkBdIOX_ROIesSUjpyK7DbxTRLgc_TNa2cuUiDLk7GLkZa8H2jZSpPWRBFcWvRp-QseGa0BHL1xlLtX_TGHmeMHZR4ytxku9BOWjR6UWeoFQTbPTTpKTBV3IPNmrFmNHww4bTQIu4xEZqfo2CcKLJw5MDCGN7CRPndgeT-M2sP85_mhGrYz9K-eD6Hut7YVGNTSNsmxuPN_qrTBOxCen28=w592-h887-no?authuser=0"> -->
+        <!-- <img id="budaImg" src="Buda.jpeg">
+        <img id="pragImg" src="prag.jpeg">
+        <img id="newImg" src="new.jpeg">
+        <img id="quebImg" src="queb.jpeg"> -->
         
       </div>
     </section>

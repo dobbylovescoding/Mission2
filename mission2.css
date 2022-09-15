@@ -5,7 +5,7 @@
 }
 
 * {
-    font-family: sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 @font-face {
@@ -198,7 +198,7 @@
     width: 50vw;
     background-color: white;
     position: relative;
-   border: double;
+   
 }
 
 
@@ -216,7 +216,8 @@
     overflow: hidden;
 }
 
-.container2 .cities p {
+.container2 .cities a {
+    cursor: pointer;
     text-align: center;
     font-size: 20px;
     padding: 0px 10px;
@@ -255,15 +256,6 @@
     background-position: center;
 }
 
-.container2 #bgImages button {
-    display: flex;
-    color: whitesmoke;
-    margin-left: 95%;
-    margin-top: 50%;
-    font-size: 30px;
-    background-color: rgba(9, 121, 105, 0.0);
-
-}
 
 /* #budaImg {
     display: block;
